@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  
+  <parameter name="username" value="Sachin"/>
+  
+    <classes>
+      <class name="com.kpit.junit.examples.TestEmployeeBusinessLogic"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

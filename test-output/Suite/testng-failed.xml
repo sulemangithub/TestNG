@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="username" value="Sachin"/>
+    <classes>
+      <class name="com.kpit.junit.examples.TestEmployeeBusinessLogic">
+        <methods>
+          <include name="testPrimeNumber" invocation-numbers="0 3"/>
+          <include name="testDependency"/>
+          <include name="initialize"/>
+          <include name="testDependant"/>
+        </methods>
+      </class> <!-- com.kpit.junit.examples.TestEmployeeBusinessLogic -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
